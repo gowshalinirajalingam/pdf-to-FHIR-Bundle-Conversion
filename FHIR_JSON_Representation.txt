@@ -1,0 +1,129 @@
+FHIR JSON Representation Documentation
+
+1. Introduction
+The JSON format for representing healthcare resources follows the RFC 8259 (STD 90) standard and is used in FHIR (Fast Healthcare Interoperability Resources). This ensures structured and standardized healthcare data exchange.
+
+2. Basic Structure of a FHIR JSON Resource
+Each FHIR resource follows this structure:
+{
+  "resourceType": "[Resource Type]",
+  "property1": "<[primitive]>",
+  "property2": { [Datatype] },
+  "property3": { 
+    "propertyA": { CodeableConcept }
+  },
+  "property4": [{ 
+    "propertyB": { Reference(ResourceType) }
+  }]
+}
+
+- resourceType: Defines the type of resource (e.g., Patient, Condition, Observation).
+- Properties: Can be primitive (e.g., string, number) or complex (objects or arrays of objects).
+
+3. JSON Property Rules
+- Case-Sensitive: Property names are case-sensitive.
+- Unique Properties: No duplicate property names.
+- Order Independence: Properties can appear in any order.
+- Non-Empty Objects: If an element is present, it must contain at least one property or an extension.
+- Non-Empty Strings: Strings must contain at least one character if present.
+
+4. JSON Representation of Different Data Types
+
+4.1 Primitive Elements
+Primitive types include:
+- Numbers (integer, decimal)
+- Boolean (true/false)
+- Strings (e.g., dateTime, code)
+
+Example:
+{
+  "code": "abc",
+  "birthDate": "1972-11-30",
+  "deceased": false,
+  "count": 23
+}
+
+If a primitive element has extensions, it is prefixed with _:
+{
+  "birthDate": "1970-03-30",
+  "_birthDate": {
+    "id": "314159",
+    "extension": [{
+      "url": "http://example.org/fhir/StructureDefinition/text",
+      "valueString": "Easter 1970"
+    }]
+  }
+}
+
+4.2 Complex Data Types
+Complex types contain multiple named elements:
+{
+  "resourceType": "Patient",
+  "name": [{
+    "id": "f2",
+    "use": "official",
+    "given": ["Karen"],
+    "family": "Van",
+    "_family": { "id": "a2" }
+  }],
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>...</p></div>"
+  }
+}
+
+4.3 Repeating Elements
+FHIR allows certain elements to repeat. In JSON:
+- The array name is singular (e.g., "coding" instead of "codings").
+- Even if only one instance exists, it must be an array.
+
+Example of a CodeableConcept:
+{
+  "coding": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "104934005"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "2947-0"
+    }
+  ]
+}
+
+5. JSON Representation of Resources
+A resource must include "resourceType":
+{
+  "resourceType": "Patient",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>...</p></div>"
+  }
+}
+
+Key considerations:
+- Parsers cannot assume "resourceType" appears first.
+- XHTML content is stored as an escaped string.
+
+6. Canonical JSON for Digital Signatures
+FHIR defines canonicalization rules to ensure consistency when signing JSON documents:
+1. No extra whitespace except in values.
+2. Properties sorted alphabetically within each object.
+3. No unknown properties unless explicitly allowed.
+
+Signature Handling Options:
+| Canonicalization Type | Description |
+|----------------------|-------------|
+| #data | Omits text before signing |
+| #static | Omits text and meta for robustness across servers |
+| #narrative | Retains only id and Narrative |
+| #document | Signs everything except Bundle.id and meta |
+
+7. Key Implementation Notes
+1. Precision Handling: JSON only supports floating-point numbers, so trailing zeros in decimals may be lost.
+2. UTF-8 Encoding: JSON resources must use UTF-8.
+3. No Comments in JSON: While JavaScript allows // comments, JSON does not.
+4. Handling Unknown Properties: Applications may ignore unknown fields to support forward compatibility.
+5. Digital Signatures: Re-identification issues can arise if identifiers are frozen.
+
+This document covers all essential details about FHIR JSON representation, ensuring adherence to standard specifications for healthcare data exchange.

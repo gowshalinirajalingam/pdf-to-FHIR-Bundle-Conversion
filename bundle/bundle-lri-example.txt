@@ -1,0 +1,69 @@
+DISCHARGE SUMMARY
+
+Patient Details:
+Name: Jim
+Date of Birth: 25 December 1974
+Gender: Male
+Medical Record Number: Not specified
+Admission Date: 15 August 2016
+Discharge Date: 18 August 2016
+Attending Physician: Not specified
+Consultant: Not specified
+--------------------------------------------------
+Primary Diagnosis:
+- Aerobic Respiratory Culture, Sputum
+
+Secondary Diagnoses:
+- Not specified
+
+Procedures Performed:
+- Laboratory Testing (Bacteria Sputum Respiratory Culture)
+--------------------------------------------------
+Clinical Course:
+
+Mr. Jim underwent a diagnostic evaluation on 15 August 2016. The laboratory analysis focused on an aerobic respiratory culture using a sputum sample. The report was issued on 18 August 2016. 
+
+Findings included:
+- Presence of Normal Flora
+- Detection of Klebsiella pneumoniae
+- Detection of Staphylococcus aureus
+- Many White Blood Cells (WBCs)
+- Moderate Gram Positive Rods
+- Moderate Gram Positive Cocci in Chains
+- Many Gram Negative Rods
+
+Further susceptibility testing indicated:
+- Ampicillin MIC: <0.06 ug/ml (Susceptible)
+- Ciprofloxacin MIC: <0.05 ug/ml (Susceptible)
+- Gentamicin MIC: <0.05 ug/ml (Susceptible)
+--------------------------------------------------
+Vital Signs on Admission:
+- Not specified
+
+Vital Signs on Discharge:
+- Not specified
+--------------------------------------------------
+Laboratory Results:
+- Normal Flora detected
+- Klebsiella pneumoniae detected
+- Staphylococcus aureus detected
+- Many White Blood Cells (WBCs)
+- Moderate Gram Positive Rods
+- Moderate Gram Positive Cocci in Chains
+- Many Gram Negative Rods
+--------------------------------------------------
+Medications on Discharge:
+- Not specified
+--------------------------------------------------
+Discharge Instructions:
+- Follow up with a healthcare provider if symptoms persist.
+- Maintain hygiene and infection control measures.
+- Monitor respiratory health and report any worsening conditions.
+--------------------------------------------------
+Follow-up Appointments:
+- Not specified
+--------------------------------------------------
+Discharging Physician:
+Not specified
+--------------------------------------------------
+End of Discharge Summary

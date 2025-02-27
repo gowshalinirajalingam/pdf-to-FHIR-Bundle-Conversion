@@ -1,0 +1,26 @@
+DISCHARGE SUMMARY
+
+Patient Details:
+Name: Pieter van de Heuvel
+Date of Birth: 17 November 1944
+Gender: Male
+Medical Record Number: f001
+
+Primary Diagnosis:
+
+Not specified
+
+Medications on Record:
+
+Medication Reference: Medication/example
+
+Clinical Course:
+
+Mr. Pieter van de Heuvel has an active medication request recorded in the system. The request is identified as MedicationRequest 3123, with an unknown status and an order intent. The associated medication reference points to Medication/example.
+
+No additional clinical history, procedures, or diagnostic details are available within the provided data.
+
+Discharging Physician:
+Not specified
+
+End of Discharge Summ

@@ -1,0 +1,50 @@
+DISCHARGE SUMMARY
+
+Patient Details:
+Name: Not specified
+Date of Birth: Not specified
+Gender: Not specified
+Medical Record Number: Not specified
+Admission Date: Not specified
+Discharge Date: Not specified
+Attending Physician: Not specified
+Consultant: Not specified
+--------------------------------------------------
+Primary Diagnosis:
+- Not specified
+
+Secondary Diagnoses:
+- Not specified
+
+Procedures Performed:
+- Not specified
+--------------------------------------------------
+Clinical Course:
+
+The provided document is a FHIR Questionnaire resource, which is primarily used for data collection rather than detailed patient records. It contains metadata and structured items for collecting responses, but does not include specific clinical details such as diagnoses, procedures, or treatment history.
+
+No additional clinical history, procedures, or diagnostic details are available within the provided data.
+--------------------------------------------------
+Vital Signs on Admission:
+- Not specified
+
+Vital Signs on Discharge:
+- Not specified
+--------------------------------------------------
+Laboratory Results:
+- Not specified
+--------------------------------------------------
+Medications on Discharge:
+- Not specified
+--------------------------------------------------
+Discharge Instructions:
+- Not specified
+--------------------------------------------------
+Follow-up Appointments:
+- Not specified
+--------------------------------------------------
+Discharging Physician:
+Not specified
+--------------------------------------------------
+End of Discharge Summary
+

@@ -1,0 +1,98 @@
+DISCHARGE SUMMARY
+
+Patient Details:
+Name: John Doe
+Date of Birth: 15 March 1985
+Gender: Male
+Medical Record Number: 123456789
+Admission Date: 01 February 2025
+Discharge Date: 08 February 2025
+Attending Physician: Dr. Emily Carter, MD
+Consultant: Dr. Robert Sinclair, MD (Cardiology)
+--------------------------------------------------
+Primary Diagnosis:
+- Acute Myocardial Infarction (ST-Elevation)
+
+Secondary Diagnoses:
+- Hypertension
+- Type 2 Diabetes Mellitus
+- Hyperlipidemia
+- Obesity (BMI: 32)
+
+Procedures Performed:
+- Coronary Angiography (02 February 2025)
+- Percutaneous Coronary Intervention (PCI) with Drug-Eluting Stent Placement (03 February 2025)
+--------------------------------------------------
+Clinical Course:
+
+Mr. John Doe was admitted to the hospital on 01 February 2025 via the emergency department after experiencing severe chest pain radiating to his left arm. Initial ECG showed ST-elevation in leads II, III, and aVF, suggestive of an acute inferior wall myocardial infarction. Emergency coronary angiography was performed, revealing a 95% occlusion in the right coronary artery (RCA). On 03 February 2025, percutaneous coronary intervention (PCI) was performed successfully with the placement of a drug-eluting stent.
+
+Post-procedure, the patient was monitored in the cardiac intensive care unit (CICU) for 48 hours. He was initiated on dual antiplatelet therapy (DAPT) with aspirin and ticagrelor, along with atorvastatin, beta-blockers, and ACE inhibitors. His post-procedural course was uneventful, with no further episodes of chest pain. Serial cardiac enzyme levels showed a downward trend, and follow-up ECGs demonstrated resolving ST elevations. His blood glucose levels were managed with insulin during hospitalization due to elevated fasting glucose. A dietitian was consulted for diabetes and weight management, and a structured cardiac rehabilitation plan was discussed.
+--------------------------------------------------
+Vital Signs on Admission:
+- Blood Pressure: 160/95 mmHg (Elevated)
+- Heart Rate: 102 bpm (Tachycardic)
+- Respiratory Rate: 18 breaths per minute
+- Temperature: 98.6°F (Normal)
+- Oxygen Saturation: 98% on room air
+
+Vital Signs on Discharge:
+- Blood Pressure: 125/80 mmHg (Controlled)
+- Heart Rate: 78 bpm (Normal)
+- Respiratory Rate: 16 breaths per minute
+- Temperature: 98.4°F (Normal)
+- Oxygen Saturation: 99% on room air
+--------------------------------------------------
+Laboratory Results:
+- Troponin I (Initial): 5.8 ng/mL (Elevated)
+- Troponin I (Discharge): 0.2 ng/mL (Normalizing)
+- Total Cholesterol: 245 mg/dL (Elevated)
+- LDL: 160 mg/dL (Elevated)
+- HDL: 38 mg/dL (Low)
+- HbA1c: 8.2% (Elevated, indicating poor diabetes control)
+- Serum Creatinine: 0.9 mg/dL (Normal)
+- Electrolytes: Normal
+--------------------------------------------------
+Medications on Discharge:
+1. Aspirin 81 mg daily
+2. Ticagrelor 90 mg twice daily
+3. Atorvastatin 80 mg daily
+4. Metoprolol 50 mg twice daily
+5. Lisinopril 10 mg daily
+6. Metformin 1000 mg twice daily
+7. Insulin Glargine 10 units at bedtime
+8. Nitroglycerin as needed for chest pain
+--------------------------------------------------
+Discharge Instructions:
+- Continue prescribed medications as directed.
+- Monitor blood pressure and blood glucose levels at home.
+- Follow a heart-healthy, low-fat, low-sodium diet.
+- Engage in light physical activity as tolerated, progressing to moderate exercise as per the cardiac rehabilitation plan.
+- Avoid smoking and alcohol consumption.
+- Recognize warning signs of heart attack (chest pain, shortness of breath, dizziness) and seek immediate medical attention if symptoms recur.
+- Follow up with primary care physician in one week.
+- Cardiology outpatient follow-up in two weeks.
+--------------------------------------------------
+Follow-up Appointments:
+1. Primary Care Physician: 15 February 2025
+2. Cardiology Clinic: 22 February 2025
+3. Cardiac Rehabilitation Program: Scheduled for 20 February 2025
+--------------------------------------------------
+Discharging Physician:
+Dr. Emily Carter, MD
+Department of Cardiology
+City General Hospital
+123 Main Street, Suite 400
+Metropolis, ST 54321
+
+Phone: (555) 123-4567
+Fax: (555) 987-6543
+Email: ecarter@citygeneralhospital.com
+
+Patient Acknowledgment:
+I have reviewed the discharge instructions and understand my medications and follow-up care.
+Patient Signature: ________________________
+Date: 08 February 2025
+--------------------------------------------------
+End of Discharge Summary
+
